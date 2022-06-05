@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: ${RABBITMQ_HOST}
+    password: ${RABBITMQ_PASSWORD}
+    username: ${RABBITMQ_USERNAME}
+    virtual-host: ${RABBITMQ_VIRTUAL_HOST}
+    listener:
+      simple:
+        default-requeue-rejected: false
+
+
+
+
